@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 30px;
+    background-color: blueviolet;
+
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
