@@ -1,89 +1,195 @@
-body{
-    
-    padding: 10px;
-    position: relative;
+*{
+    margin: 0;
+padding:0;
 }
-#homeheader{
-    width: 100%;
-    height: 600px;
+.Header-Container{
     background-image: url("../images/Rectangle\ 10.png"),url("../images/Rectangle\ 12.png");
-    position: absolute;
-    top: 0;
-    z-index: -100;
-    
+    width: 100vw;
+    height: 600px;
 }
-#headerbg{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+   
+    height: 10%;
     width: 100%;
 
-    opacity: 90%;
-   
 }
-.navhome{
-    width: 100%;
-    height: 60px;
+.navContainer{
+
+    height: 100%;
     display: flex;
     justify-content: space-between;
-   
-}
-.headercontainer{
-display: flex;
-height: 500px;
-z-index: 100;
-} 
-.headercontainer img{
-   width: 700px;
-    }
-.navbuttons{
-    display: flex;
-    justify-content: space-between;
-}
-#searchEvent {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 67%;
-    height: 127px;
-    position: absolute;
-    top: 532px;
-    right: 248px;
-   
+    padding:0px 60px;
+    
 }
-.searchContainer{
+.navButtons{
+    display: flex;
+    width: 50%;
+
+    justify-content: space-between;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around ;
+    height: 90%;
+    
+    align-items: center;
+}
+.fixmainContainer{
     width: 80%;
-}
-.bg-Searchevent{
-    background: url("../images/Rectangle\ 11.png") ;
-    width: 100%;
-    background-size: cover;
-    height: 142px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    height: 100%;
+    ALIGN-ITEMS: CENTER;
+}
+.maininfos{
+    width: 50%;
+    height: 69%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-   
+    flex-direction: column;
 }
-.pp{
-    display: flex;
-    justify-content: space-between;
-}
-.cc{
-    display: flex;
-    justify-content: space-between;
-}
-.EventContainer{
+.infos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* height: 500px; */
-    position: absolute;
-    top: 151px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
 }
-.EventContainer span{
+.search{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+    background-color:blue;
+    border-radius: 10px;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+
+
+}
+.upEvent{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+
+    align-items: center;
 }
-#imagecontainer{
-    width: 50%;
+.Event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.header2container{
-    width: 50%;
+.EventOptions{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
+.Eoption{
+    width: 30%;
+}
+.EventsImages{
+    display: flex;
+    width: 80vw;
+}
+.Eimages-desc{
+    display: flex;
+}
+.EventimagesContainer{
+    width: 80%;
+    HEIGHT: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ALIGN-ITEMS: CENTER;
+}
+.Eimages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    background: WHITESMOKE;
+    outline-color: black;
+    border-radius: 19px;
+}
+.Eimages img{
+width: 100%;
+}
+.mainContainer-buttons{
+    height: 30%;
+
+    width: 70%;
+    display: flex   ;
+    justify-content: space-between;
+}
+.btnheader{
+    width: 40%;
+    height: 50%;
+    background-color: azure;
+}
+.Joinbrand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 166px;
+    background-color: #e3caef;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+.Brands{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    
+}
+.Blog-images{
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+}
+.brandsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    align-items: center;
+}
+.BlogContainer{
+    display: flex;
+    JUSTIFY-CONTENT: space-around;
+    width: 80%;
+
+}
+.Blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: aquamarine;
+    padding-top: 35px;
+    justify-content: center;
+
+}
+.footerCon{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
