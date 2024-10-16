@@ -1,15 +1,79 @@
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    height: 30px;
-    background-color: blueviolet;
+nav{
+   
+    height: 10%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   
 
+}
+.navContainer{
+    width: 85%;
+    border-radius: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 60px;
+    background-color: blueviolet;
+    
+}
+.navButtons{
+    display: flex;
+    width: 50%;
+
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pages{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 500px;
+}
+.SpeakersContainer{
+    width: 90%;
+    height: 1470px;
+    background-image: url("../images/Speakers/Frame.png");
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fixInfos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Speakers-info{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    flex-direction: column;
+}
+.Speakers{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.Speakers-Brands{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 562px;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
+.sponsors{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }

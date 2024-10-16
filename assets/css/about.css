@@ -1,0 +1,47 @@
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AboutUsContetnt{
+    width: 87%;
+    height: 1706px;
+    background-image: url("../images/about/bg.png");
+}
+.Aboutbox2,.Aboutbox1,.Aboutbox3{
+    width: 100%;
+    display: flex;
+}
+.Aboutbox2{
+    justify-content: end;
+}
+.Aboutext2{
+    margin-top: 90px;
+    width: 40%;
+    background-image: url("../images/about/Frame1.png");
+    height: 458px;
+}
+.Aboutext3  {
+    margin-top: 160px;
+}
+.Aboutext1,.Aboutext3{
+    width: 40%;
+    background-image: url("../images/about/Frame1.png");
+    height: 458px;
+}
+.Aboutext1,.Aboutext3,.Aboutext2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 100px;
+}
+#QQ{
+    align-items: end;
+}
