@@ -15,7 +15,8 @@
                 <p>Home</p>
                 <p>Speakers</p>
                 <p>About</p>
-                <p style="border-radius: 8px; background-color: azure;">Login</p>
+                <p style="border-radius: 8px; background-color: transparent; width: 92px;
+    text-align: center;  border: 1px solid white;">Login</p>
             </div>
             </div>
         </nav>
@@ -29,8 +30,8 @@
                         <h1>SBS MTV The Kpop Show Ticket Package</h1>
                     <p>Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop recording.</p>
                     <div class="mainContainer-buttons">
-                        <input type="button" value="Get Ticket" class="btnheader">
-                        <input type="button" value="Learn More" class="btnheader">
+                        <input type="button" value="Get Ticket" class="btnheader" id="red">
+                        <input type="button" value="Learn More" class="btnheader" id="white">
                     </div>
                     </div>
                 </div>
@@ -41,9 +42,9 @@
     </header>
     <div class="container">
         <section class="search">
-            <div><p>Search Event</p><input type="text" name="" id="" value="Any Event"></div>
-            <div><p>Place</p><input type="text" name="" id="" value="Indoniasia" ></div>
-            <div><p>Time</p><select name="" id="">
+            <div><p class="headSearch">Search Event</p><input type="text" name="" id="" value="Any Event"></div>
+            <div><p class="headSearch">Place</p><input type="text" name="" id="" value="Indoniasia" ></div>
+            <div><p class="headSearch">Time</p><select name="" id="searchSelection">
                 <option value="">Any date</option>
             </select></div>
         </section>
@@ -68,7 +69,7 @@
                 <div class="Eimages">
                     <img src="./assets/images/events/Rec13.png" alt="" srcset="">
         <div class="Eimages-desc">
-            <div>
+            <div class="Time">
                 <h4>APR</h4>
                 <p>14</p>
             </div>
@@ -81,7 +82,7 @@
                     <div class="Eimages">
                         <img src="./assets/images/events/Rect14.png" alt="" srcset="">
             <div class="Eimages-desc">
-                <div>
+                <div class="Time">
                     <h4>APR</h4>
                     <p>15</p>
                 </div>
@@ -97,7 +98,7 @@
                 <div class="Eimages">
                     <img src="./assets/images/events/Rect16.png" alt="" srcset="">
         <div class="Eimages-desc">
-            <div>
+            <div class="Time">
                 <h4>APR</h4>
                 <p>18</p>
             </div>
@@ -110,7 +111,7 @@
                     <div class="Eimages">
                         <img src="./assets/images/events/Rectangle 12.png" alt="" srcset="">
             <div class="Eimages-desc">
-                <div>
+                <div class="Time">
                     <h4>APR</h4>
                     <p>14</p>
                 </div>
@@ -120,14 +121,14 @@
                 </div>
             </div>
                         </div>
-                        <button>Load More</button>
+                        
                         
             </div>
             <div class="EventimagesContainer">
                 <div class="Eimages">
                     <img src="./assets/images/events/Rect18.png" alt="" srcset="">
         <div class="Eimages-desc">
-            <div>
+            <div class="Time">
                 <h4>APR</h4>
                 <p>14</p>
             </div>
@@ -140,7 +141,7 @@
                     <div class="Eimages">
                         <img src="./assets/images/events/Rect15.png" alt="" srcset="">
             <div class="Eimages-desc">
-                <div>
+                <div class="Time">
                     <h4>APR</h4>
                     <p>16</p>
                 </div>
@@ -159,7 +160,8 @@
 
     </div>
     <div class="Joinbrand">
-<h3>Join These Brands   </h3>
+<h3 style="    margin-bottom: 30px;">
+    Join These Brands   </h3>
 <p>We've had the pleasure of working with industry-defining brands. These are just some of them.</p>
     </div>
     <div class="Brands">
@@ -198,13 +200,13 @@
 <footer >
     <div class="footer1Con">
         <div>
-            <img src="./assets/images/footerImages/logo.png" alt="logo" srcset="">
+            <img src="./assets/images/footerImages/logo.png" alt="logo" srcset="" style="margin-bottom: 5px ;">
         </div>
         <div class="textfooter">
             <p>
                 Eventick is a global self-service ticketing platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.            </p>
         </div>
-        <div>
+        <div class="socialMedia">
             <img src="./assets/images/footerImages/facebook.png" alt="facebook" srcset="">
             <img src="./assets/images/footerImages/twitter.png" alt="twitter" srcset="">
             <img src="./assets/images/footerImages/linkedin.png" alt="Linkedin" srcset="">
@@ -244,7 +246,7 @@
         <div class="up">
            <h3>Stay in the loop</h3>
         </div>
-        <div>
+        <div class="ss">
             <p>
                 Join our mailing list to stay in the loop with our newest for Event and concert            </p>
         </div>
@@ -255,6 +257,9 @@
 
     </div>
 </footer>
+<div class="CopyRight" style="display: flex;justify-content: center; align-items: center;background-color: #321665; border-top:1px solid white; height: 40px; color: white;">
+    <p>Copyright © 2022 Avi Yansah</p>
+</div>
     
 </body>
 </html>
