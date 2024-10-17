@@ -215,6 +215,18 @@ width: 100%;
 
 
 }
+/* .fontstyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+} */
+.dm-sans-font {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
 .Brands{
     display: flex;
     justify-content: center;
