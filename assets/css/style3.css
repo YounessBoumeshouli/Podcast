@@ -15,7 +15,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:0px 60px;
-    background-color: blueviolet;
+    background-color: #242565;
     
 }
 .navButtons{
@@ -72,8 +72,37 @@ nav{
 
     align-items: center;
 }
+.podcastName{
+    
+        font-family: "Dokdo", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+      }
+
 .sponsors{
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
+.Position {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+  }
+  .SpeakerName ,.Speakers-Brands,.container h1 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .Speakers-Brands p{
+font-size: xx-large;
+width: 400px;
+  }
+  .navButtons a p{
+    color: white;
+  }
+  

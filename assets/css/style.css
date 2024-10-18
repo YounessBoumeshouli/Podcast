@@ -2,6 +2,9 @@
     margin: 0;
 padding:0;
 }
+body {
+    width: 100%;
+}
 .Header-Container{
     background-image: url("../images/Rectangle\ 10.png"),url("../images/Rectangle\ 12.png");
     width: 100vw;
@@ -49,6 +52,7 @@ nav{
     color: white;
 }
 .EventOptions input,.EventOptions select{
+    text-align: center;
 background-color: #e3caef;
 border: 4px solid #e3caef;
 color: black;
@@ -173,7 +177,7 @@ footer a,.textfooter,.ss,.up{
 }
 .EventimagesContainer{
     width: 80%;
-    HEIGHT: 700px;
+    height: 706px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -183,7 +187,7 @@ footer a,.textfooter,.ss,.up{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 94%;
+    width: 91%;
     background: WHITESMOKE;
     outline-color: black;
     border-radius: 19px;
@@ -208,8 +212,8 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 166px;
-    background-color: #e3caef;
+    height: 227px;
+    background-color: #EEE1FF;
     justify-content: center;
     margin-top: 100px;
 
@@ -252,6 +256,9 @@ width: 100%;
     width: 80%;
 
 }
+.BlogContainer img,.BlogContainer h3,.BlogContainer p{
+    margin-bottom: 20px;
+}
 .Blog{
     display: flex;
     flex-direction: column;
@@ -265,9 +272,15 @@ width: 100%;
    flex-direction: column;
    align-items: center;
 }
-footer{
-    margin-top: 17px;
 
+.dokdo-regular {
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 154px;
+  }
+footer{
+    margin-top: 120px;
     width: 100%;
     height:300px;
     display: flex;
@@ -300,6 +313,12 @@ footer , footer a {
     border: none;
     border-radius: 40px;
 }
+.Blog-images h3{
+    
+    width: 287px;
+    color: #242565;
+    
+}
 a{
     text-decoration: none;
 }
@@ -323,3 +342,52 @@ a{
     flex-direction: column;
 }
 
+@media  screen and (max-width: 600px) {
+#to-hide-image{
+    display: none;
+}
+#to-grow{
+    width: 100%;
+}
+.mainContainer-buttons {
+    align-items: center;
+}
+.navContainer {
+    width: 100%;
+}.navButtons{
+    display: none;
+}
+
+.Eimages-desc h3,.Eimages-desc h4 {
+    font-size: x-small;
+}
+.Eimages-desc p{
+    font-size: xx-small;
+
+}
+.EventimagesContainer{
+    height: fit-content;
+}
+.EventsImages{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+
+}
+.Eimages{
+    margin-bottom: 21px;
+
+}
+.brandsContainer{
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.Blog-images h3{
+
+}
+}
+#active{
+    color: greenyellow;
+}

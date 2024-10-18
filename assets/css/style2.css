@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(238, 238, 160);
+    background-color: #FFFDEB;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -67,11 +67,20 @@ button{
     display: flex;
     align-items: center;
 }
+.box2 h1{
+    /* width: 33%; */
+    text-align: center;
+    
+}
+
 .buttonContainer{
     display: flex;
     margin-right: 10px;
     align-items: center ;
     height: 40px;
+    width: 50%;
+}
+.buttonContainer input{
     width: 50%;
 }
 .boxContainer{
@@ -90,6 +99,7 @@ form{
 .ii{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #D3D3D3;
 }
 .logbox{
     width: 212px;
